@@ -1,0 +1,28 @@
+{
+  "showcases": [
+    {
+      "id": "minimal-tokyo",
+      "title": "Minimal Tokyo",
+      "author": "felixkratz",
+      "thumbnail": "/screenshots/minimal-tokyo/thumb.svg",
+      "tags": ["minimal", "tokyo-night", "icons"],
+      "mode": "dark"
+    },
+    {
+      "id": "catppuccin-mocha",
+      "title": "Catppuccin Mocha",
+      "author": "catppuccin",
+      "thumbnail": "/screenshots/catppuccin-mocha/thumb.svg",
+      "tags": ["catppuccin", "colorful", "widgets"],
+      "mode": "dark"
+    },
+    {
+      "id": "nord-ice",
+      "title": "Nord Ice",
+      "author": "nordtheme",
+      "thumbnail": "/screenshots/nord-ice/thumb.svg",
+      "tags": ["nord", "minimal", "clean"],
+      "mode": "both"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tags": [
+    { "id": "minimal", "label": "minimal", "count": 2 },
+    { "id": "tokyo-night", "label": "tokyo-night", "count": 1 },
+    { "id": "catppuccin", "label": "catppuccin", "count": 1 },
+    { "id": "nord", "label": "nord", "count": 1 },
+    { "id": "colorful", "label": "colorful", "count": 1 },
+    { "id": "icons", "label": "icons", "count": 1 },
+    { "id": "widgets", "label": "widgets", "count": 1 },
+    { "id": "clean", "label": "clean", "count": 1 }
+  ]
+}

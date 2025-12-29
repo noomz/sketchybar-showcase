@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect fill="#1a1b26" width="800" height="500"/>
+  <rect fill="#24283b" x="0" y="0" width="800" height="37" rx="0"/>
+  <rect fill="#24283b" x="600" y="60" width="180" height="120" rx="8"/>
+  <text x="690" y="100" font-family="system-ui" font-size="12" fill="#c0caf5" text-anchor="middle">CPU: 12%</text>
+  <text x="690" y="120" font-family="system-ui" font-size="12" fill="#c0caf5" text-anchor="middle">MEM: 8.2GB</text>
+  <text x="690" y="140" font-family="system-ui" font-size="12" fill="#9ece6a" text-anchor="middle">Battery: 85%</text>
+  <text x="400" y="280" font-family="system-ui" font-size="16" fill="#565f89" text-anchor="middle">Minimal Tokyo - Widgets</text>
+</svg>
