@@ -1,0 +1,21 @@
+{
+  "id": "voidpointer0-1",
+  "title": "voidpointer0's Setup",
+  "author": "voidpointer0",
+  "authorUrl": "https://github.com/voidpointer0",
+  "description": "A SketchyBar configuration shared by voidpointer0 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/voidpointer0-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/voidpointer0-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "icons"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-12-10"
+}

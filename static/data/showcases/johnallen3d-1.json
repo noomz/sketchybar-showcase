@@ -1,0 +1,21 @@
+{
+  "id": "johnallen3d-1",
+  "title": "johnallen3d's Setup",
+  "author": "johnallen3d",
+  "authorUrl": "https://github.com/johnallen3d",
+  "description": "A SketchyBar configuration shared by johnallen3d in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/johnallen3d-1/main.png"
+  ],
+  "thumbnail": "/screenshots/johnallen3d-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "minimal"
+  ],
+  "githubUrl": "https://github.com/johnallen3d",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-01-17"
+}

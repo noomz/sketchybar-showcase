@@ -1,0 +1,23 @@
+{
+  "id": "izeau-1",
+  "title": "izeau's Setup",
+  "author": "izeau",
+  "authorUrl": "https://github.com/izeau",
+  "description": "A SketchyBar configuration shared by izeau in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/izeau-1/main.png"
+  ],
+  "thumbnail": "/screenshots/izeau-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "minimal",
+    "icons",
+    "widgets"
+  ],
+  "githubUrl": "https://github.com/kvndrsslr/sketchybar-app-font",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-10-29"
+}

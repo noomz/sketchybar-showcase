@@ -1,0 +1,21 @@
+{
+  "id": "khaneliman-1",
+  "title": "khaneliman's Setup",
+  "author": "khaneliman",
+  "authorUrl": "https://github.com/khaneliman",
+  "description": "A SketchyBar configuration shared by khaneliman in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/khaneliman-1/main.png"
+  ],
+  "thumbnail": "/screenshots/khaneliman-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/khaneliman/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-01-07"
+}

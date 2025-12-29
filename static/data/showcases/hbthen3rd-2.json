@@ -1,0 +1,21 @@
+{
+  "id": "hbthen3rd-2",
+  "title": "hbthen3rd's Setup",
+  "author": "hbthen3rd",
+  "authorUrl": "https://github.com/hbthen3rd",
+  "description": "A SketchyBar configuration shared by hbthen3rd in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/hbthen3rd-2/main.jpg"
+  ],
+  "thumbnail": "/screenshots/hbthen3rd-2/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-09-02"
+}

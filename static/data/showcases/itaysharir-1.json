@@ -1,0 +1,21 @@
+{
+  "id": "itaysharir-1",
+  "title": "itaysharir's Setup",
+  "author": "itaysharir",
+  "authorUrl": "https://github.com/itaysharir",
+  "description": "A SketchyBar configuration shared by itaysharir in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/itaysharir-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/itaysharir-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/itaysharir/Dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-09-07"
+}

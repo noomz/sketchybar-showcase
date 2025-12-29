@@ -1,0 +1,22 @@
+{
+  "id": "navilan-1",
+  "title": "navilan's Setup",
+  "author": "navilan",
+  "authorUrl": "https://github.com/navilan",
+  "description": "A SketchyBar configuration shared by navilan in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/navilan-1/main.png",
+    "/screenshots/navilan-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/navilan-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "tokyo-night"
+  ],
+  "githubUrl": "https://github.com/navilan/wabi",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-10-09"
+}

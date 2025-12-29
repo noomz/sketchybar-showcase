@@ -1,0 +1,21 @@
+{
+  "id": "mcassy-1",
+  "title": "mCassy's Setup",
+  "author": "mCassy",
+  "authorUrl": "https://github.com/mCassy",
+  "description": "A SketchyBar configuration shared by mCassy in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/mcassy-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/mcassy-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "rose-pine"
+  ],
+  "githubUrl": "https://github.com/mCassy/sketchybarc",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-12-03"
+}

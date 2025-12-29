@@ -1,0 +1,22 @@
+{
+  "id": "oxgr-1",
+  "title": "oxgr's Setup",
+  "author": "oxgr",
+  "authorUrl": "https://github.com/oxgr",
+  "description": "A SketchyBar configuration shared by oxgr in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/oxgr-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/oxgr-1/main.jpg",
+  "mode": "light",
+  "tags": [
+    "icons",
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-10-14"
+}

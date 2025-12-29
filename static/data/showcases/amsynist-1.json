@@ -1,0 +1,28 @@
+{
+  "id": "amsynist-1",
+  "title": "amsynist's Setup",
+  "author": "amsynist",
+  "authorUrl": "https://github.com/amsynist",
+  "description": "A SketchyBar configuration shared by amsynist in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/amsynist-1/main.jpg",
+    "/screenshots/amsynist-1/screenshot-1.jpg",
+    "/screenshots/amsynist-1/screenshot-2.jpg",
+    "/screenshots/amsynist-1/screenshot-3.jpg",
+    "/screenshots/amsynist-1/screenshot-4.jpg",
+    "/screenshots/amsynist-1/screenshot-5.jpg",
+    "/screenshots/amsynist-1/screenshot-6.jpg",
+    "/screenshots/amsynist-1/screenshot-7.jpg"
+  ],
+  "thumbnail": "/screenshots/amsynist-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "gruvbox"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-01-16"
+}

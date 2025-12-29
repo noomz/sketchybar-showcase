@@ -1,0 +1,21 @@
+{
+  "id": "armindarvish-1",
+  "title": "armindarvish's Setup",
+  "author": "armindarvish",
+  "authorUrl": "https://github.com/armindarvish",
+  "description": "A SketchyBar configuration shared by armindarvish in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/armindarvish-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/armindarvish-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/user-attachments/assets",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-08-03"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "felixkratz-2",
+  "title": "FelixKratz's Setup",
+  "author": "FelixKratz",
+  "authorUrl": "https://github.com/FelixKratz",
+  "description": "A SketchyBar configuration shared by FelixKratz in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/felixkratz-2/main.jpg"
+  ],
+  "thumbnail": "/screenshots/felixkratz-2/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "icons",
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-01-23"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "rish106-1",
+  "title": "rish106's Setup",
+  "author": "rish106",
+  "authorUrl": "https://github.com/rish106",
+  "description": "A SketchyBar configuration shared by rish106 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/rish106-1/main.png",
+    "/screenshots/rish106-1/screenshot-1.png",
+    "/screenshots/rish106-1/screenshot-2.png",
+    "/screenshots/rish106-1/screenshot-3.png"
+  ],
+  "thumbnail": "/screenshots/rish106-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "icons"
+  ],
+  "githubUrl": "https://github.com/rish106/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-12-29"
+}

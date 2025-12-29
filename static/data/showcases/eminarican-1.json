@@ -1,0 +1,21 @@
+{
+  "id": "eminarican-1",
+  "title": "eminarican's Setup",
+  "author": "eminarican",
+  "authorUrl": "https://github.com/eminarican",
+  "description": "A SketchyBar configuration shared by eminarican in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/eminarican-1/main.png"
+  ],
+  "thumbnail": "/screenshots/eminarican-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/eminarican/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-04-11"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bellavene-1",
+  "title": "Bellavene's Setup",
+  "author": "Bellavene",
+  "authorUrl": "https://github.com/Bellavene",
+  "description": "A SketchyBar configuration shared by Bellavene in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/bellavene-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/bellavene-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-06-27"
+}

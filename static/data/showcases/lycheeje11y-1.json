@@ -1,0 +1,23 @@
+{
+  "id": "lycheeje11y-1",
+  "title": "lycheeje11y's Setup",
+  "author": "lycheeje11y",
+  "authorUrl": "https://github.com/lycheeje11y",
+  "description": "A SketchyBar configuration shared by lycheeje11y in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/lycheeje11y-1/main.jpg",
+    "/screenshots/lycheeje11y-1/screenshot-1.jpg",
+    "/screenshots/lycheeje11y-1/screenshot-2.jpg"
+  ],
+  "thumbnail": "/screenshots/lycheeje11y-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "minimal"
+  ],
+  "githubUrl": "https://github.com/s4Dt0y/rb-dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-05-24"
+}

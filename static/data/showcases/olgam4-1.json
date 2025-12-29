@@ -1,0 +1,21 @@
+{
+  "id": "olgam4-1",
+  "title": "olgam4's Setup",
+  "author": "olgam4",
+  "authorUrl": "https://github.com/olgam4",
+  "description": "A SketchyBar configuration shared by olgam4 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/olgam4-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/olgam4-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-05-09"
+}

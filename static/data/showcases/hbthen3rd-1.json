@@ -1,0 +1,23 @@
+{
+  "id": "hbthen3rd-1",
+  "title": "hbthen3rd's Setup",
+  "author": "hbthen3rd",
+  "authorUrl": "https://github.com/hbthen3rd",
+  "description": "A SketchyBar configuration shared by hbthen3rd in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/hbthen3rd-1/main.jpg",
+    "/screenshots/hbthen3rd-1/screenshot-1.jpg",
+    "/screenshots/hbthen3rd-1/screenshot-2.jpg"
+  ],
+  "thumbnail": "/screenshots/hbthen3rd-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "gruvbox"
+  ],
+  "githubUrl": "https://github.com/hbthen3rd/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-08-22"
+}

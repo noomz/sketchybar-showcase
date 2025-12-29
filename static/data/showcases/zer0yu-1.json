@@ -1,0 +1,21 @@
+{
+  "id": "zer0yu-1",
+  "title": "zer0yu's Setup",
+  "author": "zer0yu",
+  "authorUrl": "https://github.com/zer0yu",
+  "description": "A SketchyBar configuration shared by zer0yu in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/zer0yu-1/main.png"
+  ],
+  "thumbnail": "/screenshots/zer0yu-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/zer0yu/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-11-25"
+}

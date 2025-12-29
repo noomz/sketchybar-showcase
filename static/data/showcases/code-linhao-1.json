@@ -1,0 +1,21 @@
+{
+  "id": "code-linhao-1",
+  "title": "code-linhao's Setup",
+  "author": "code-linhao",
+  "authorUrl": "https://github.com/code-linhao",
+  "description": "A SketchyBar configuration shared by code-linhao in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/code-linhao-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/code-linhao-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "gruvbox"
+  ],
+  "githubUrl": "https://github.com/code-linhao",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-12-28"
+}

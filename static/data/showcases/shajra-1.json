@@ -1,0 +1,23 @@
+{
+  "id": "shajra-1",
+  "title": "shajra's Setup",
+  "author": "shajra",
+  "authorUrl": "https://github.com/shajra",
+  "description": "A SketchyBar configuration shared by shajra in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/shajra-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/shajra-1/main.jpg",
+  "mode": "light",
+  "tags": [
+    "widgets",
+    "yabai",
+    "lua"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-01-30"
+}

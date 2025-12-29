@@ -1,0 +1,21 @@
+{
+  "id": "fallenmax-1",
+  "title": "FallenMax's Setup",
+  "author": "FallenMax",
+  "authorUrl": "https://github.com/FallenMax",
+  "description": "A SketchyBar configuration shared by FallenMax in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/fallenmax-1/main.png"
+  ],
+  "thumbnail": "/screenshots/fallenmax-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FallenMax/sketchybar-config",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-01-29"
+}

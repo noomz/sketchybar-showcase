@@ -1,0 +1,21 @@
+{
+  "id": "tnixc-2",
+  "title": "Tnixc's Setup",
+  "author": "Tnixc",
+  "authorUrl": "https://github.com/Tnixc",
+  "description": "A SketchyBar configuration shared by Tnixc in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/tnixc-2/main.jpg"
+  ],
+  "thumbnail": "/screenshots/tnixc-2/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "tokyo-night"
+  ],
+  "githubUrl": "https://github.com/Tnixc/dots",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-03-26"
+}

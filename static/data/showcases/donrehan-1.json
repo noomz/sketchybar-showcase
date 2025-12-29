@@ -1,0 +1,21 @@
+{
+  "id": "donrehan-1",
+  "title": "donRehan's Setup",
+  "author": "donRehan",
+  "authorUrl": "https://github.com/donRehan",
+  "description": "A SketchyBar configuration shared by donRehan in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/donrehan-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/donrehan-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-07-03"
+}

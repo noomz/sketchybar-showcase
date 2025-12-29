@@ -1,0 +1,21 @@
+{
+  "id": "felixkratz-5",
+  "title": "FelixKratz's Setup (Catppuccin)",
+  "author": "FelixKratz",
+  "authorUrl": "https://github.com/FelixKratz",
+  "description": "A SketchyBar configuration shared by FelixKratz in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/felixkratz-5/main.png"
+  ],
+  "thumbnail": "/screenshots/felixkratz-5/main.png",
+  "mode": "dark",
+  "tags": [
+    "catppuccin"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-07-21"
+}

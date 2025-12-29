@@ -1,0 +1,21 @@
+{
+  "id": "br00l-1",
+  "title": "BR00l's Setup (Dracula)",
+  "author": "BR00l",
+  "authorUrl": "https://github.com/BR00l",
+  "description": "A SketchyBar configuration shared by BR00l in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/br00l-1/main.png"
+  ],
+  "thumbnail": "/screenshots/br00l-1/main.png",
+  "mode": "light",
+  "tags": [
+    "dracula"
+  ],
+  "githubUrl": "https://github.com/BR00l",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2021-10-08"
+}

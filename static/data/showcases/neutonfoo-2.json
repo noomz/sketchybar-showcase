@@ -1,0 +1,21 @@
+{
+  "id": "neutonfoo-2",
+  "title": "neutonfoo's Setup",
+  "author": "neutonfoo",
+  "authorUrl": "https://github.com/neutonfoo",
+  "description": "A SketchyBar configuration shared by neutonfoo in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/neutonfoo-2/main.png"
+  ],
+  "thumbnail": "/screenshots/neutonfoo-2/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-12-11"
+}

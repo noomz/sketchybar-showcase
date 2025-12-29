@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
-  <rect fill="#2e3440" width="400" height="250"/>
-  <rect fill="#3b4252" x="0" y="0" width="400" height="28" rx="0"/>
-  <rect fill="#4c566a" x="15" y="8" width="50" height="12" rx="4"/>
-  <rect fill="#4c566a" x="75" y="8" width="50" height="12" rx="4"/>
-  <rect fill="#88c0d0" x="320" y="8" width="60" height="12" rx="4"/>
-  <text x="200" y="150" font-family="system-ui" font-size="14" fill="#4c566a" text-anchor="middle">Nord Ice Theme</text>
-</svg>

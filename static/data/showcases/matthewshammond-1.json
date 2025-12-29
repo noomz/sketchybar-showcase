@@ -1,0 +1,22 @@
+{
+  "id": "matthewshammond-1",
+  "title": "matthewshammond's Setup (Nord)",
+  "author": "matthewshammond",
+  "authorUrl": "https://github.com/matthewshammond",
+  "description": "A SketchyBar configuration shared by matthewshammond in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/matthewshammond-1/main.jpg",
+    "/screenshots/matthewshammond-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/matthewshammond-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "nord"
+  ],
+  "githubUrl": "https://github.com/matthewshammond/sketchybar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-08-12"
+}

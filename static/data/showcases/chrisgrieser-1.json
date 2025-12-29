@@ -1,0 +1,21 @@
+{
+  "id": "chrisgrieser-1",
+  "title": "chrisgrieser's Setup",
+  "author": "chrisgrieser",
+  "authorUrl": "https://github.com/chrisgrieser",
+  "description": "A SketchyBar configuration shared by chrisgrieser in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/chrisgrieser-1/main.png"
+  ],
+  "thumbnail": "/screenshots/chrisgrieser-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "minimal"
+  ],
+  "githubUrl": "https://github.com/chrisgrieser",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-01-04"
+}

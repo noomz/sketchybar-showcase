@@ -1,0 +1,24 @@
+{
+  "id": "kamyil-1",
+  "title": "Kamyil's Setup",
+  "author": "Kamyil",
+  "authorUrl": "https://github.com/Kamyil",
+  "description": "A SketchyBar configuration shared by Kamyil in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/kamyil-1/main.jpg",
+    "/screenshots/kamyil-1/screenshot-1.jpg",
+    "/screenshots/kamyil-1/screenshot-2.jpg"
+  ],
+  "thumbnail": "/screenshots/kamyil-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "widgets",
+    "aerospace"
+  ],
+  "githubUrl": "https://github.com/user-attachments/assets",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-08-02"
+}

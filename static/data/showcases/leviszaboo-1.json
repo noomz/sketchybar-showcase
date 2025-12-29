@@ -1,0 +1,21 @@
+{
+  "id": "leviszaboo-1",
+  "title": "leviszaboo's Setup",
+  "author": "leviszaboo",
+  "authorUrl": "https://github.com/leviszaboo",
+  "description": "A SketchyBar configuration shared by leviszaboo in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/leviszaboo-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/leviszaboo-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/leviszaboo/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-06-10"
+}

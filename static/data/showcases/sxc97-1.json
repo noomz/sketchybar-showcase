@@ -1,0 +1,21 @@
+{
+  "id": "sxc97-1",
+  "title": "SxC97's Setup (Nord)",
+  "author": "SxC97",
+  "authorUrl": "https://github.com/SxC97",
+  "description": "A SketchyBar configuration shared by SxC97 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/sxc97-1/main.png"
+  ],
+  "thumbnail": "/screenshots/sxc97-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "nord"
+  ],
+  "githubUrl": "https://github.com/SxC97/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2021-11-02"
+}

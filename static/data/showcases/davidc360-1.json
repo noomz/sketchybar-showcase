@@ -1,0 +1,21 @@
+{
+  "id": "davidc360-1",
+  "title": "davidc360's Setup",
+  "author": "davidc360",
+  "authorUrl": "https://github.com/davidc360",
+  "description": "A SketchyBar configuration shared by davidc360 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/davidc360-1/main.png"
+  ],
+  "thumbnail": "/screenshots/davidc360-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "minimal"
+  ],
+  "githubUrl": "https://github.com/davidc360",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2021-12-24"
+}

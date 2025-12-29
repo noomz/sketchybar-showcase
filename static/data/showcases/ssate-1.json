@@ -1,0 +1,21 @@
+{
+  "id": "ssate-1",
+  "title": "ssate's Setup (Nord)",
+  "author": "ssate",
+  "authorUrl": "https://github.com/ssate",
+  "description": "A SketchyBar configuration shared by ssate in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/ssate-1/main.png"
+  ],
+  "thumbnail": "/screenshots/ssate-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "nord"
+  ],
+  "githubUrl": "https://github.com/ssate",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2021-10-23"
+}

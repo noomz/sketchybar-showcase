@@ -1,0 +1,21 @@
+{
+  "id": "jay0ma-1",
+  "title": "jay0ma's Setup",
+  "author": "jay0ma",
+  "authorUrl": "https://github.com/jay0ma",
+  "description": "A SketchyBar configuration shared by jay0ma in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/jay0ma-1/main.png"
+  ],
+  "thumbnail": "/screenshots/jay0ma-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/jay0ma",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-02-03"
+}

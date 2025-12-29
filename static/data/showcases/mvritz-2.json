@@ -1,0 +1,23 @@
+{
+  "id": "mvritz-2",
+  "title": "mvritz's Setup",
+  "author": "mvritz",
+  "authorUrl": "https://github.com/mvritz",
+  "description": "A SketchyBar configuration shared by mvritz in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/mvritz-2/main.jpg",
+    "/screenshots/mvritz-2/screenshot-1.jpg",
+    "/screenshots/mvritz-2/screenshot-2.jpg"
+  ],
+  "thumbnail": "/screenshots/mvritz-2/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/mvritz/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-07-17"
+}

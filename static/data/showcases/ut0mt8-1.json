@@ -1,0 +1,21 @@
+{
+  "id": "ut0mt8-1",
+  "title": "ut0mt8's Setup",
+  "author": "ut0mt8",
+  "authorUrl": "https://github.com/ut0mt8",
+  "description": "A SketchyBar configuration shared by ut0mt8 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/ut0mt8-1/main.png"
+  ],
+  "thumbnail": "/screenshots/ut0mt8-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/ut0mt8",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2021-10-08"
+}

@@ -1,28 +1,961 @@
 {
   "showcases": [
     {
-      "id": "minimal-tokyo",
-      "title": "Minimal Tokyo",
-      "author": "felixkratz",
-      "thumbnail": "/screenshots/minimal-tokyo/thumb.svg",
-      "tags": ["minimal", "tokyo-night", "icons"],
+      "id": "ducky6944-1",
+      "title": "Ducky6944's Setup",
+      "author": "Ducky6944",
+      "thumbnail": "/screenshots/ducky6944-1/main.png",
+      "tags": [
+        "custom"
+      ],
       "mode": "dark"
     },
     {
-      "id": "catppuccin-mocha",
-      "title": "Catppuccin Mocha",
-      "author": "catppuccin",
-      "thumbnail": "/screenshots/catppuccin-mocha/thumb.svg",
-      "tags": ["catppuccin", "colorful", "widgets"],
+      "id": "corpooo-1",
+      "title": "corpooo's Setup",
+      "author": "corpooo",
+      "thumbnail": "/screenshots/corpooo-1/main.png",
+      "tags": [
+        "custom"
+      ],
       "mode": "dark"
     },
     {
-      "id": "nord-ice",
-      "title": "Nord Ice",
-      "author": "nordtheme",
-      "thumbnail": "/screenshots/nord-ice/thumb.svg",
-      "tags": ["nord", "minimal", "clean"],
+      "id": "ut0mt8-1",
+      "title": "ut0mt8's Setup",
+      "author": "ut0mt8",
+      "thumbnail": "/screenshots/ut0mt8-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "br00l-1",
+      "title": "BR00l's Setup (Dracula)",
+      "author": "BR00l",
+      "thumbnail": "/screenshots/br00l-1/main.png",
+      "tags": [
+        "dracula"
+      ],
+      "mode": "light"
+    },
+    {
+      "id": "ducky6944-2",
+      "title": "Ducky6944's Setup",
+      "author": "Ducky6944",
+      "thumbnail": "/screenshots/ducky6944-2/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "ssate-1",
+      "title": "ssate's Setup (Nord)",
+      "author": "ssate",
+      "thumbnail": "/screenshots/ssate-1/main.png",
+      "tags": [
+        "nord"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "sxc97-1",
+      "title": "SxC97's Setup (Nord)",
+      "author": "SxC97",
+      "thumbnail": "/screenshots/sxc97-1/main.png",
+      "tags": [
+        "nord"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "es183923-1",
+      "title": "es183923's Setup",
+      "author": "es183923",
+      "thumbnail": "/screenshots/es183923-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "cxa-1",
+      "title": "cxa's Setup",
+      "author": "cxa",
+      "thumbnail": "/screenshots/cxa-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-1",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "cxa-2",
+      "title": "cxa's Setup",
+      "author": "cxa",
+      "thumbnail": "/screenshots/cxa-2/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "davidc360-1",
+      "title": "davidc360's Setup",
+      "author": "davidc360",
+      "thumbnail": "/screenshots/davidc360-1/main.png",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "alex-jerechinsky-1",
+      "title": "alex-jerechinsky's Setup",
+      "author": "alex-jerechinsky",
+      "thumbnail": "/screenshots/alex-jerechinsky-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "ducky6944-3",
+      "title": "Ducky6944's Setup (Dracula)",
+      "author": "Ducky6944",
+      "thumbnail": "/screenshots/ducky6944-3/main.png",
+      "tags": [
+        "dracula"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "johnallen3d-1",
+      "title": "johnallen3d's Setup",
+      "author": "johnallen3d",
+      "thumbnail": "/screenshots/johnallen3d-1/main.png",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "es183923-2",
+      "title": "es183923's Setup",
+      "author": "es183923",
+      "thumbnail": "/screenshots/es183923-2/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-2",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-2/main.jpg",
+      "tags": [
+        "icons",
+        "yabai"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-3",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-3/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "light"
+    },
+    {
+      "id": "felixkratz-4",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-4/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "light"
+    },
+    {
+      "id": "tnixc-1",
+      "title": "Tnixc's Setup (Catppuccin)",
+      "author": "Tnixc",
+      "thumbnail": "/screenshots/tnixc-1/main.png",
+      "tags": [
+        "minimal",
+        "catppuccin"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-5",
+      "title": "FelixKratz's Setup (Catppuccin)",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-5/main.png",
+      "tags": [
+        "catppuccin"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "shahmilav-1",
+      "title": "shahmilav's Setup",
+      "author": "shahmilav",
+      "thumbnail": "/screenshots/shahmilav-1/main.png",
+      "tags": [
+        "minimal",
+        "icons",
+        "widgets"
+      ],
       "mode": "both"
+    },
+    {
+      "id": "mkutay-1",
+      "title": "mkutay's Setup (Dracula)",
+      "author": "mkutay",
+      "thumbnail": "/screenshots/mkutay-1/main.png",
+      "tags": [
+        "dracula"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "matthewshammond-1",
+      "title": "matthewshammond's Setup (Nord)",
+      "author": "matthewshammond",
+      "thumbnail": "/screenshots/matthewshammond-1/main.jpg",
+      "tags": [
+        "nord"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "kvndrsslr-1",
+      "title": "kvndrsslr's Setup",
+      "author": "kvndrsslr",
+      "thumbnail": "/screenshots/kvndrsslr-1/main.png",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "itaysharir-1",
+      "title": "itaysharir's Setup",
+      "author": "itaysharir",
+      "thumbnail": "/screenshots/itaysharir-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "mistovek016-1",
+      "title": "mistovek016's Setup",
+      "author": "mistovek016",
+      "thumbnail": "/screenshots/mistovek016-1/main.png",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "navilan-1",
+      "title": "navilan's Setup",
+      "author": "navilan",
+      "thumbnail": "/screenshots/navilan-1/main.png",
+      "tags": [
+        "tokyo-night"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "izeau-1",
+      "title": "izeau's Setup",
+      "author": "izeau",
+      "thumbnail": "/screenshots/izeau-1/main.png",
+      "tags": [
+        "minimal",
+        "icons",
+        "widgets"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "lcjnil-1",
+      "title": "lcjnil's Setup",
+      "author": "lcjnil",
+      "thumbnail": "/screenshots/lcjnil-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-6",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-6/main.png",
+      "tags": [
+        "icons",
+        "widgets",
+        "yabai"
+      ],
+      "mode": "light"
+    },
+    {
+      "id": "neutonfoo-1",
+      "title": "neutonfoo's Setup (Catppuccin)",
+      "author": "neutonfoo",
+      "thumbnail": "/screenshots/neutonfoo-1/main.jpg",
+      "tags": [
+        "minimal",
+        "catppuccin",
+        "icons"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "zer0yu-1",
+      "title": "zer0yu's Setup",
+      "author": "zer0yu",
+      "thumbnail": "/screenshots/zer0yu-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "neutonfoo-2",
+      "title": "neutonfoo's Setup",
+      "author": "neutonfoo",
+      "thumbnail": "/screenshots/neutonfoo-2/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "itaysharir-2",
+      "title": "itaysharir's Setup",
+      "author": "itaysharir",
+      "thumbnail": "/screenshots/itaysharir-2/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "code-linhao-1",
+      "title": "code-linhao's Setup",
+      "author": "code-linhao",
+      "thumbnail": "/screenshots/code-linhao-1/main.jpg",
+      "tags": [
+        "gruvbox"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "rish106-1",
+      "title": "rish106's Setup",
+      "author": "rish106",
+      "thumbnail": "/screenshots/rish106-1/main.png",
+      "tags": [
+        "icons"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "code-linhao-2",
+      "title": "code-linhao's Setup (Dracula)",
+      "author": "code-linhao",
+      "thumbnail": "/screenshots/code-linhao-2/main.jpg",
+      "tags": [
+        "dracula",
+        "gruvbox",
+        "icons",
+        "widgets"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "jpcrs-1",
+      "title": "jpcrs's Setup",
+      "author": "jpcrs",
+      "thumbnail": "/screenshots/jpcrs-1/main.jpg",
+      "tags": [
+        "minimal",
+        "yabai"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "chrisgrieser-1",
+      "title": "chrisgrieser's Setup",
+      "author": "chrisgrieser",
+      "thumbnail": "/screenshots/chrisgrieser-1/main.png",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "khaneliman-1",
+      "title": "khaneliman's Setup",
+      "author": "khaneliman",
+      "thumbnail": "/screenshots/khaneliman-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "johnallen3d-2",
+      "title": "johnallen3d's Setup",
+      "author": "johnallen3d",
+      "thumbnail": "/screenshots/johnallen3d-2/main.png",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "fallenmax-1",
+      "title": "FallenMax's Setup",
+      "author": "FallenMax",
+      "thumbnail": "/screenshots/fallenmax-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "jay0ma-1",
+      "title": "jay0ma's Setup",
+      "author": "jay0ma",
+      "thumbnail": "/screenshots/jay0ma-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-7",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-7/main.png",
+      "tags": [
+        "minimal",
+        "icons"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "rogeruiz-1",
+      "title": "rogeruiz's Setup (Catppuccin)",
+      "author": "rogeruiz",
+      "thumbnail": "/screenshots/rogeruiz-1/main.jpg",
+      "tags": [
+        "catppuccin",
+        "icons"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "cxa-3",
+      "title": "cxa's Setup",
+      "author": "cxa",
+      "thumbnail": "/screenshots/cxa-3/main.png",
+      "tags": [
+        "icons",
+        "widgets",
+        "yabai"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-8",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-8/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-9",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-9/main.png",
+      "tags": [
+        "icons",
+        "lua"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "rajeshmajumdar-1",
+      "title": "rajeshmajumdar's Setup",
+      "author": "rajeshmajumdar",
+      "thumbnail": "/screenshots/rajeshmajumdar-1/main.png",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "meksrc-1",
+      "title": "meksrc's Setup",
+      "author": "meksrc",
+      "thumbnail": "/screenshots/meksrc-1/main.png",
+      "tags": [
+        "yabai"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "eminarican-1",
+      "title": "eminarican's Setup",
+      "author": "eminarican",
+      "thumbnail": "/screenshots/eminarican-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "olgam4-1",
+      "title": "olgam4's Setup",
+      "author": "olgam4",
+      "thumbnail": "/screenshots/olgam4-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "jncsotk30-1",
+      "title": "jncsotk30's Setup",
+      "author": "jncsotk30",
+      "thumbnail": "/screenshots/jncsotk30-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "colamint-1",
+      "title": "ColaMint's Setup",
+      "author": "ColaMint",
+      "thumbnail": "/screenshots/colamint-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "donrehan-1",
+      "title": "donRehan's Setup",
+      "author": "donRehan",
+      "thumbnail": "/screenshots/donrehan-1/main.jpg",
+      "tags": [
+        "yabai"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "o77tsen-1",
+      "title": "o77tsen's Setup",
+      "author": "o77tsen",
+      "thumbnail": "/screenshots/o77tsen-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "hbthen3rd-1",
+      "title": "hbthen3rd's Setup",
+      "author": "hbthen3rd",
+      "thumbnail": "/screenshots/hbthen3rd-1/main.jpg",
+      "tags": [
+        "gruvbox"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "taylorfinklea-1",
+      "title": "TaylorFinklea's Setup",
+      "author": "TaylorFinklea",
+      "thumbnail": "/screenshots/taylorfinklea-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "hbthen3rd-2",
+      "title": "hbthen3rd's Setup",
+      "author": "hbthen3rd",
+      "thumbnail": "/screenshots/hbthen3rd-2/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "mvritz-1",
+      "title": "mvritz's Setup",
+      "author": "mvritz",
+      "thumbnail": "/screenshots/mvritz-1/main.png",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "sasha-id-1",
+      "title": "sasha-id's Setup",
+      "author": "sasha-id",
+      "thumbnail": "/screenshots/sasha-id-1/main.jpg",
+      "tags": [
+        "icons"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "oxgr-1",
+      "title": "oxgr's Setup",
+      "author": "oxgr",
+      "thumbnail": "/screenshots/oxgr-1/main.jpg",
+      "tags": [
+        "icons",
+        "yabai"
+      ],
+      "mode": "light"
+    },
+    {
+      "id": "jac-zac-1",
+      "title": "Jac-Zac's Setup",
+      "author": "Jac-Zac",
+      "thumbnail": "/screenshots/jac-zac-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "mcassy-1",
+      "title": "mCassy's Setup",
+      "author": "mCassy",
+      "thumbnail": "/screenshots/mcassy-1/main.jpg",
+      "tags": [
+        "rose-pine"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "wanttolearnjapanese-1",
+      "title": "WantToLearnJapanese's Setup",
+      "author": "WantToLearnJapanese",
+      "thumbnail": "/screenshots/wanttolearnjapanese-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "voidpointer0-1",
+      "title": "voidpointer0's Setup",
+      "author": "voidpointer0",
+      "thumbnail": "/screenshots/voidpointer0-1/main.jpg",
+      "tags": [
+        "icons"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "pe8er-1",
+      "title": "Pe8er's Setup",
+      "author": "Pe8er",
+      "thumbnail": "/screenshots/pe8er-1/main.jpg",
+      "tags": [
+        "yabai"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "amsynist-1",
+      "title": "amsynist's Setup",
+      "author": "amsynist",
+      "thumbnail": "/screenshots/amsynist-1/main.jpg",
+      "tags": [
+        "gruvbox"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "shajra-1",
+      "title": "shajra's Setup",
+      "author": "shajra",
+      "thumbnail": "/screenshots/shajra-1/main.jpg",
+      "tags": [
+        "widgets",
+        "yabai",
+        "lua"
+      ],
+      "mode": "light"
+    },
+    {
+      "id": "amsynist-2",
+      "title": "amsynist's Setup",
+      "author": "amsynist",
+      "thumbnail": "/screenshots/amsynist-2/main.jpg",
+      "tags": [
+        "icons"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "fau818-1",
+      "title": "Fau818's Setup",
+      "author": "Fau818",
+      "thumbnail": "/screenshots/fau818-1/main.jpg",
+      "tags": [
+        "yabai"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "felixkratz-10",
+      "title": "FelixKratz's Setup",
+      "author": "FelixKratz",
+      "thumbnail": "/screenshots/felixkratz-10/main.jpg",
+      "tags": [
+        "lua"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "tnixc-2",
+      "title": "Tnixc's Setup",
+      "author": "Tnixc",
+      "thumbnail": "/screenshots/tnixc-2/main.jpg",
+      "tags": [
+        "tokyo-night"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "john-json-1",
+      "title": "john-json's Setup",
+      "author": "john-json",
+      "thumbnail": "/screenshots/john-json-1/main.jpg",
+      "tags": [
+        "lua"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "jckpn-1",
+      "title": "jckpn's Setup",
+      "author": "jckpn",
+      "thumbnail": "/screenshots/jckpn-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "i-lost-my-bagel-1",
+      "title": "i-lost-my-bagel's Setup",
+      "author": "i-lost-my-bagel",
+      "thumbnail": "/screenshots/i-lost-my-bagel-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "remyrf-1",
+      "title": "remyrf's Setup",
+      "author": "remyrf",
+      "thumbnail": "/screenshots/remyrf-1/main.jpg",
+      "tags": [
+        "minimal",
+        "gruvbox"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "cliffback-1",
+      "title": "Cliffback's Setup (Catppuccin)",
+      "author": "Cliffback",
+      "thumbnail": "/screenshots/cliffback-1/main.jpg",
+      "tags": [
+        "minimal",
+        "catppuccin",
+        "icons",
+        "widgets"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "lycheeje11y-1",
+      "title": "lycheeje11y's Setup",
+      "author": "lycheeje11y",
+      "thumbnail": "/screenshots/lycheeje11y-1/main.jpg",
+      "tags": [
+        "minimal"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "john-json-2",
+      "title": "john-json's Setup",
+      "author": "john-json",
+      "thumbnail": "/screenshots/john-json-2/main.jpg",
+      "tags": [
+        "lua"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "leviszaboo-1",
+      "title": "leviszaboo's Setup",
+      "author": "leviszaboo",
+      "thumbnail": "/screenshots/leviszaboo-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "asexylordrevan-1",
+      "title": "AsexyLordRevan's Setup (Catppuccin)",
+      "author": "AsexyLordRevan",
+      "thumbnail": "/screenshots/asexylordrevan-1/main.jpg",
+      "tags": [
+        "catppuccin"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "bellavene-1",
+      "title": "Bellavene's Setup",
+      "author": "Bellavene",
+      "thumbnail": "/screenshots/bellavene-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "john-json-3",
+      "title": "john-json's Setup",
+      "author": "john-json",
+      "thumbnail": "/screenshots/john-json-3/main.jpg",
+      "tags": [
+        "widgets"
+      ],
+      "mode": "light"
+    },
+    {
+      "id": "john-json-4",
+      "title": "john-json's Setup",
+      "author": "john-json",
+      "thumbnail": "/screenshots/john-json-4/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "snikimonkd-1",
+      "title": "Snikimonkd's Setup",
+      "author": "Snikimonkd",
+      "thumbnail": "/screenshots/snikimonkd-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "mvritz-2",
+      "title": "mvritz's Setup",
+      "author": "mvritz",
+      "thumbnail": "/screenshots/mvritz-2/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "weirane-1",
+      "title": "weirane's Setup",
+      "author": "weirane",
+      "thumbnail": "/screenshots/weirane-1/main.jpg",
+      "tags": [
+        "widgets"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "chenxin-yan-1",
+      "title": "chenxin-yan's Setup (Catppuccin)",
+      "author": "chenxin-yan",
+      "thumbnail": "/screenshots/chenxin-yan-1/main.jpg",
+      "tags": [
+        "catppuccin"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "kamyil-1",
+      "title": "Kamyil's Setup",
+      "author": "Kamyil",
+      "thumbnail": "/screenshots/kamyil-1/main.jpg",
+      "tags": [
+        "widgets",
+        "aerospace"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "armindarvish-1",
+      "title": "armindarvish's Setup",
+      "author": "armindarvish",
+      "thumbnail": "/screenshots/armindarvish-1/main.jpg",
+      "tags": [
+        "custom"
+      ],
+      "mode": "dark"
+    },
+    {
+      "id": "tolubori07-1",
+      "title": "tolubori07's Setup",
+      "author": "tolubori07",
+      "thumbnail": "/screenshots/tolubori07-1/main.jpg",
+      "tags": [
+        "lua"
+      ],
+      "mode": "dark"
     }
   ]
 }

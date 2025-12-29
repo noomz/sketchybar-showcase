@@ -1,0 +1,22 @@
+{
+  "id": "tnixc-1",
+  "title": "Tnixc's Setup (Catppuccin)",
+  "author": "Tnixc",
+  "authorUrl": "https://github.com/Tnixc",
+  "description": "A SketchyBar configuration shared by Tnixc in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/tnixc-1/main.png"
+  ],
+  "thumbnail": "/screenshots/tnixc-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "minimal",
+    "catppuccin"
+  ],
+  "githubUrl": "https://github.com/Tnixc/dots",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-07-02"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "shahmilav-1",
+  "title": "shahmilav's Setup",
+  "author": "shahmilav",
+  "authorUrl": "https://github.com/shahmilav",
+  "description": "A SketchyBar configuration shared by shahmilav in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/shahmilav-1/main.png",
+    "/screenshots/shahmilav-1/screenshot-1.png",
+    "/screenshots/shahmilav-1/screenshot-2.png"
+  ],
+  "thumbnail": "/screenshots/shahmilav-1/main.png",
+  "mode": "both",
+  "tags": [
+    "minimal",
+    "icons",
+    "widgets"
+  ],
+  "githubUrl": "https://github.com/shahmilav/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-07-25"
+}

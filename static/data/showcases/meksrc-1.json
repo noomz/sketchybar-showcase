@@ -1,0 +1,21 @@
+{
+  "id": "meksrc-1",
+  "title": "meksrc's Setup",
+  "author": "meksrc",
+  "authorUrl": "https://github.com/meksrc",
+  "description": "A SketchyBar configuration shared by meksrc in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/meksrc-1/main.png"
+  ],
+  "thumbnail": "/screenshots/meksrc-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/meksrc",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-03-29"
+}

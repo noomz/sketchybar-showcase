@@ -1,0 +1,25 @@
+{
+  "id": "cliffback-1",
+  "title": "Cliffback's Setup (Catppuccin)",
+  "author": "Cliffback",
+  "authorUrl": "https://github.com/Cliffback",
+  "description": "A SketchyBar configuration shared by Cliffback in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/cliffback-1/main.jpg",
+    "/screenshots/cliffback-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/cliffback-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "minimal",
+    "catppuccin",
+    "icons",
+    "widgets"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-05-09"
+}

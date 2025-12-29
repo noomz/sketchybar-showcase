@@ -1,0 +1,22 @@
+{
+  "id": "jpcrs-1",
+  "title": "jpcrs's Setup",
+  "author": "jpcrs",
+  "authorUrl": "https://github.com/jpcrs",
+  "description": "A SketchyBar configuration shared by jpcrs in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/jpcrs-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/jpcrs-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "minimal",
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/jpcrs",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-01-03"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rajeshmajumdar-1",
+  "title": "rajeshmajumdar's Setup",
+  "author": "rajeshmajumdar",
+  "authorUrl": "https://github.com/rajeshmajumdar",
+  "description": "A SketchyBar configuration shared by rajeshmajumdar in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/rajeshmajumdar-1/main.png",
+    "/screenshots/rajeshmajumdar-1/screenshot-1.png"
+  ],
+  "thumbnail": "/screenshots/rajeshmajumdar-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "minimal"
+  ],
+  "githubUrl": "https://github.com/rajeshmajumdar/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-03-26"
+}

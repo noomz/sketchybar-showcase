@@ -1,0 +1,24 @@
+{
+  "id": "remyrf-1",
+  "title": "remyrf's Setup",
+  "author": "remyrf",
+  "authorUrl": "https://github.com/remyrf",
+  "description": "A SketchyBar configuration shared by remyrf in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/remyrf-1/main.jpg",
+    "/screenshots/remyrf-1/screenshot-1.jpg",
+    "/screenshots/remyrf-1/screenshot-2.jpg"
+  ],
+  "thumbnail": "/screenshots/remyrf-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "minimal",
+    "gruvbox"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-05-06"
+}

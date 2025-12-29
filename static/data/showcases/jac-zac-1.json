@@ -1,0 +1,22 @@
+{
+  "id": "jac-zac-1",
+  "title": "Jac-Zac's Setup",
+  "author": "Jac-Zac",
+  "authorUrl": "https://github.com/Jac-Zac",
+  "description": "A SketchyBar configuration shared by Jac-Zac in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/jac-zac-1/main.jpg",
+    "/screenshots/jac-zac-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/jac-zac-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-11-21"
+}

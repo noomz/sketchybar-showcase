@@ -1,0 +1,28 @@
+{
+  "id": "felixkratz-6",
+  "title": "FelixKratz's Setup",
+  "author": "FelixKratz",
+  "authorUrl": "https://github.com/FelixKratz",
+  "description": "A SketchyBar configuration shared by FelixKratz in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/felixkratz-6/main.png",
+    "/screenshots/felixkratz-6/screenshot-1.png",
+    "/screenshots/felixkratz-6/screenshot-2.png",
+    "/screenshots/felixkratz-6/screenshot-3.png",
+    "/screenshots/felixkratz-6/screenshot-4.jpg",
+    "/screenshots/felixkratz-6/screenshot-5.jpg"
+  ],
+  "thumbnail": "/screenshots/felixkratz-6/main.png",
+  "mode": "light",
+  "tags": [
+    "icons",
+    "widgets",
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/kvndrsslr/sketchybar-app-font",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-11-11"
+}

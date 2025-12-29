@@ -1,0 +1,22 @@
+{
+  "id": "tolubori07-1",
+  "title": "tolubori07's Setup",
+  "author": "tolubori07",
+  "authorUrl": "https://github.com/tolubori07",
+  "description": "A SketchyBar configuration shared by tolubori07 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/tolubori07-1/main.jpg",
+    "/screenshots/tolubori07-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/tolubori07-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "lua"
+  ],
+  "githubUrl": "https://github.com/user-attachments/assets",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-08-11"
+}

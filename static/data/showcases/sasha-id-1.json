@@ -1,0 +1,21 @@
+{
+  "id": "sasha-id-1",
+  "title": "sasha-id's Setup",
+  "author": "sasha-id",
+  "authorUrl": "https://github.com/sasha-id",
+  "description": "A SketchyBar configuration shared by sasha-id in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/sasha-id-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/sasha-id-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "icons"
+  ],
+  "githubUrl": "https://github.com/alex-klepa/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-09-15"
+}

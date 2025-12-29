@@ -1,0 +1,25 @@
+{
+  "id": "neutonfoo-1",
+  "title": "neutonfoo's Setup (Catppuccin)",
+  "author": "neutonfoo",
+  "authorUrl": "https://github.com/neutonfoo",
+  "description": "A SketchyBar configuration shared by neutonfoo in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/neutonfoo-1/main.jpg",
+    "/screenshots/neutonfoo-1/screenshot-1.png",
+    "/screenshots/neutonfoo-1/screenshot-2.png"
+  ],
+  "thumbnail": "/screenshots/neutonfoo-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "minimal",
+    "catppuccin",
+    "icons"
+  ],
+  "githubUrl": "https://github.com/neutonfoo/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-11-16"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cxa-2",
+  "title": "cxa's Setup",
+  "author": "cxa",
+  "authorUrl": "https://github.com/cxa",
+  "description": "A SketchyBar configuration shared by cxa in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/cxa-2/main.png"
+  ],
+  "thumbnail": "/screenshots/cxa-2/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/cxa",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2021-11-24"
+}

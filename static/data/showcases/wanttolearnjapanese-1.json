@@ -1,0 +1,21 @@
+{
+  "id": "wanttolearnjapanese-1",
+  "title": "WantToLearnJapanese's Setup",
+  "author": "WantToLearnJapanese",
+  "authorUrl": "https://github.com/WantToLearnJapanese",
+  "description": "A SketchyBar configuration shared by WantToLearnJapanese in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/wanttolearnjapanese-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/wanttolearnjapanese-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-12-10"
+}

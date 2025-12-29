@@ -1,0 +1,21 @@
+{
+  "id": "asexylordrevan-1",
+  "title": "AsexyLordRevan's Setup (Catppuccin)",
+  "author": "AsexyLordRevan",
+  "authorUrl": "https://github.com/AsexyLordRevan",
+  "description": "A SketchyBar configuration shared by AsexyLordRevan in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/asexylordrevan-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/asexylordrevan-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "catppuccin"
+  ],
+  "githubUrl": "https://github.com/AsexyLordRevan/sketchybar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-06-22"
+}

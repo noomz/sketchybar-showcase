@@ -1,0 +1,21 @@
+{
+  "id": "ducky6944-1",
+  "title": "Ducky6944's Setup",
+  "author": "Ducky6944",
+  "authorUrl": "https://github.com/Ducky6944",
+  "description": "A SketchyBar configuration shared by Ducky6944 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/ducky6944-1/main.png"
+  ],
+  "thumbnail": "/screenshots/ducky6944-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/Ducky6944",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2021-09-27"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fau818-1",
+  "title": "Fau818's Setup",
+  "author": "Fau818",
+  "authorUrl": "https://github.com/Fau818",
+  "description": "A SketchyBar configuration shared by Fau818 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/fau818-1/main.jpg",
+    "/screenshots/fau818-1/screenshot-1.jpg",
+    "/screenshots/fau818-1/screenshot-2.jpg"
+  ],
+  "thumbnail": "/screenshots/fau818-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/Fau818/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-02-16"
+}

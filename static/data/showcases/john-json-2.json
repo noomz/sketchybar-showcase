@@ -1,0 +1,23 @@
+{
+  "id": "john-json-2",
+  "title": "john-json's Setup",
+  "author": "john-json",
+  "authorUrl": "https://github.com/john-json",
+  "description": "A SketchyBar configuration shared by john-json in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/john-json-2/main.jpg",
+    "/screenshots/john-json-2/screenshot-1.jpg",
+    "/screenshots/john-json-2/screenshot-2.jpg"
+  ],
+  "thumbnail": "/screenshots/john-json-2/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "lua"
+  ],
+  "githubUrl": "https://github.com/john-json/sketchybar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-06-08"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mkutay-1",
+  "title": "mkutay's Setup (Dracula)",
+  "author": "mkutay",
+  "authorUrl": "https://github.com/mkutay",
+  "description": "A SketchyBar configuration shared by mkutay in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/mkutay-1/main.png"
+  ],
+  "thumbnail": "/screenshots/mkutay-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "dracula"
+  ],
+  "githubUrl": "https://github.com/MKutay/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-08-12"
+}

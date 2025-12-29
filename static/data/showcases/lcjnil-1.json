@@ -1,0 +1,21 @@
+{
+  "id": "lcjnil-1",
+  "title": "lcjnil's Setup",
+  "author": "lcjnil",
+  "authorUrl": "https://github.com/lcjnil",
+  "description": "A SketchyBar configuration shared by lcjnil in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/lcjnil-1/main.png"
+  ],
+  "thumbnail": "/screenshots/lcjnil-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/lcjnil/sketchybar-dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-10-31"
+}

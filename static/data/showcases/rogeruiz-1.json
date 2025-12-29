@@ -1,0 +1,22 @@
+{
+  "id": "rogeruiz-1",
+  "title": "rogeruiz's Setup (Catppuccin)",
+  "author": "rogeruiz",
+  "authorUrl": "https://github.com/rogeruiz",
+  "description": "A SketchyBar configuration shared by rogeruiz in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/rogeruiz-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/rogeruiz-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "catppuccin",
+    "icons"
+  ],
+  "githubUrl": "https://github.com/catppuccin/catppuccin",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-02-12"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "jncsotk30-1",
+  "title": "jncsotk30's Setup",
+  "author": "jncsotk30",
+  "authorUrl": "https://github.com/jncsotk30",
+  "description": "A SketchyBar configuration shared by jncsotk30 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/jncsotk30-1/main.jpg",
+    "/screenshots/jncsotk30-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/jncsotk30-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-05-20"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "code-linhao-2",
+  "title": "code-linhao's Setup (Dracula)",
+  "author": "code-linhao",
+  "authorUrl": "https://github.com/code-linhao",
+  "description": "A SketchyBar configuration shared by code-linhao in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/code-linhao-2/main.jpg",
+    "/screenshots/code-linhao-2/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/code-linhao-2/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "dracula",
+    "gruvbox",
+    "icons",
+    "widgets"
+  ],
+  "githubUrl": "https://github.com/code-linhao/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-01-02"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "o77tsen-1",
+  "title": "o77tsen's Setup",
+  "author": "o77tsen",
+  "authorUrl": "https://github.com/o77tsen",
+  "description": "A SketchyBar configuration shared by o77tsen in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/o77tsen-1/main.png",
+    "/screenshots/o77tsen-1/screenshot-1.png"
+  ],
+  "thumbnail": "/screenshots/o77tsen-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/o77tsen/dots",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-08-06"
+}

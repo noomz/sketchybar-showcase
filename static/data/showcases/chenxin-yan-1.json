@@ -1,0 +1,21 @@
+{
+  "id": "chenxin-yan-1",
+  "title": "chenxin-yan's Setup (Catppuccin)",
+  "author": "chenxin-yan",
+  "authorUrl": "https://github.com/chenxin-yan",
+  "description": "A SketchyBar configuration shared by chenxin-yan in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/chenxin-yan-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/chenxin-yan-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "catppuccin"
+  ],
+  "githubUrl": "https://github.com/user-attachments/assets",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-07-25"
+}

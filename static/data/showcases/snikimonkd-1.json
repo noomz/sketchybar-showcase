@@ -1,0 +1,22 @@
+{
+  "id": "snikimonkd-1",
+  "title": "Snikimonkd's Setup",
+  "author": "Snikimonkd",
+  "authorUrl": "https://github.com/Snikimonkd",
+  "description": "A SketchyBar configuration shared by Snikimonkd in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/snikimonkd-1/main.jpg",
+    "/screenshots/snikimonkd-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/snikimonkd-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/Snikimonkd/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-07-13"
+}

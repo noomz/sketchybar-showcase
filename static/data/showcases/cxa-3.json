@@ -1,0 +1,23 @@
+{
+  "id": "cxa-3",
+  "title": "cxa's Setup",
+  "author": "cxa",
+  "authorUrl": "https://github.com/cxa",
+  "description": "A SketchyBar configuration shared by cxa in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/cxa-3/main.png"
+  ],
+  "thumbnail": "/screenshots/cxa-3/main.png",
+  "mode": "dark",
+  "tags": [
+    "icons",
+    "widgets",
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/cxa/yabai",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-02-16"
+}

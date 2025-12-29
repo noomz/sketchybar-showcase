@@ -1,0 +1,21 @@
+{
+  "id": "pe8er-1",
+  "title": "Pe8er's Setup",
+  "author": "Pe8er",
+  "authorUrl": "https://github.com/Pe8er",
+  "description": "A SketchyBar configuration shared by Pe8er in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/pe8er-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/pe8er-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "yabai"
+  ],
+  "githubUrl": "https://github.com/Pe8er/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-12-18"
+}

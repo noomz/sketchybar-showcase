@@ -1,0 +1,21 @@
+{
+  "id": "mistovek016-1",
+  "title": "mistovek016's Setup",
+  "author": "mistovek016",
+  "authorUrl": "https://github.com/mistovek016",
+  "description": "A SketchyBar configuration shared by mistovek016 in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/mistovek016-1/main.png"
+  ],
+  "thumbnail": "/screenshots/mistovek016-1/main.png",
+  "mode": "dark",
+  "tags": [
+    "minimal"
+  ],
+  "githubUrl": "https://github.com/mistovek016",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2022-10-04"
+}

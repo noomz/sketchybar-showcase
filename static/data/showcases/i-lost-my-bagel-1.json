@@ -1,0 +1,21 @@
+{
+  "id": "i-lost-my-bagel-1",
+  "title": "i-lost-my-bagel's Setup",
+  "author": "i-lost-my-bagel",
+  "authorUrl": "https://github.com/i-lost-my-bagel",
+  "description": "A SketchyBar configuration shared by i-lost-my-bagel in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/i-lost-my-bagel-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/i-lost-my-bagel-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/i-lost-my-bagel/newrepofordotfilesandotherconfigthings",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-04-28"
+}

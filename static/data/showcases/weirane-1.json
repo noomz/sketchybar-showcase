@@ -1,0 +1,21 @@
+{
+  "id": "weirane-1",
+  "title": "weirane's Setup",
+  "author": "weirane",
+  "authorUrl": "https://github.com/weirane",
+  "description": "A SketchyBar configuration shared by weirane in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/weirane-1/main.jpg"
+  ],
+  "thumbnail": "/screenshots/weirane-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "widgets"
+  ],
+  "githubUrl": "https://github.com/weirane/dotfiles",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2024-07-18"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "taylorfinklea-1",
+  "title": "TaylorFinklea's Setup",
+  "author": "TaylorFinklea",
+  "authorUrl": "https://github.com/TaylorFinklea",
+  "description": "A SketchyBar configuration shared by TaylorFinklea in the community showcase thread.",
+  "screenshots": [
+    "/screenshots/taylorfinklea-1/main.jpg",
+    "/screenshots/taylorfinklea-1/screenshot-1.jpg"
+  ],
+  "thumbnail": "/screenshots/taylorfinklea-1/main.jpg",
+  "mode": "dark",
+  "tags": [
+    "custom"
+  ],
+  "githubUrl": "https://github.com/FelixKratz/SketchyBar",
+  "dependencies": [
+    "sketchybar"
+  ],
+  "dotfiles": {},
+  "createdAt": "2023-08-29"
+}
