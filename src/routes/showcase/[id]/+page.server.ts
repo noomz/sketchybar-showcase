@@ -1,12 +1,13 @@
 import type { PageServerLoad, EntryGenerator } from './$types';
 import type { ShowcaseDetail, ShowcaseIndex } from '$lib/types';
+import { base } from '$app/paths';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
 export const prerender = true;
 
 export const load: PageServerLoad = async ({ params, fetch }) => {
-	const res = await fetch(`/data/showcases/${params.id}.json`);
+	const res = await fetch(`${base}/data/showcases/${params.id}.json`);
 	const showcase: ShowcaseDetail = await res.json();
 	return { showcase };
 };
