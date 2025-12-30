@@ -1,13 +1,14 @@
 <script lang="ts">
 	import '../app.css';
 	import { base } from '$app/paths';
+	import LikesMenu from '$lib/components/LikesMenu.svelte';
 
-	let { children } = $props();
+	let { children, data } = $props();
 </script>
 
 <div class="min-h-screen flex flex-col">
 	<header class="border-b border-[var(--border-color)] bg-[var(--bg-secondary)]">
-		<div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
+		<div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex items-center justify-between">
 			<a href="{base}/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
 				<svg class="w-8 h-8 text-[var(--accent)]" viewBox="0 0 24 24" fill="currentColor">
 					<rect x="2" y="3" width="20" height="4" rx="1" />
@@ -20,6 +21,7 @@
 					<p class="text-sm text-[var(--text-secondary)]">Beautiful macOS menu bar configurations</p>
 				</div>
 			</a>
+			<LikesMenu showcases={data.allShowcases} />
 		</div>
 	</header>
 
