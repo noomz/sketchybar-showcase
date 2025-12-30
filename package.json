@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "scrape": "node scripts/scrape-discussion.js"
+    "scrape": "node scripts/scrape-discussion.js",
+    "fetch-dotfiles": "node scripts/fetch-dotfiles.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.8",
