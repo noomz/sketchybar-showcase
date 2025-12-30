@@ -8,11 +8,19 @@
 	interface Props {
 		data: {
 			showcase: ShowcaseDetail;
+			prevId: string | null;
+			nextId: string | null;
+			currentIndex: number;
+			totalCount: number;
 		};
 	}
 
 	let { data }: Props = $props();
 	const showcase = $derived(data.showcase);
+	const prevId = $derived(data.prevId);
+	const nextId = $derived(data.nextId);
+	const currentIndex = $derived(data.currentIndex);
+	const totalCount = $derived(data.totalCount);
 </script>
 
 <svelte:head>
@@ -21,16 +29,58 @@
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-	<!-- Back Link -->
-	<a
-		href="{base}/"
-		class="inline-flex items-center gap-2 text-[var(--text-secondary)] hover:text-[var(--accent)] mb-6 transition-colors"
-	>
-		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-		</svg>
-		Back to showcases
-	</a>
+	<!-- Navigation Header -->
+	<div class="flex items-center justify-between mb-6">
+		<a
+			href="{base}/"
+			class="inline-flex items-center gap-2 text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+		>
+			<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+			</svg>
+			Back to showcases
+		</a>
+
+		<div class="flex items-center gap-2">
+			<span class="text-sm text-[var(--text-secondary)]">{currentIndex} / {totalCount}</span>
+			<div class="flex gap-1">
+				{#if prevId}
+					<a
+						href="{base}/showcase/{prevId}"
+						class="p-2 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
+						title="Previous showcase"
+					>
+						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+						</svg>
+					</a>
+				{:else}
+					<span class="p-2 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] text-[var(--border-color)] cursor-not-allowed">
+						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+						</svg>
+					</span>
+				{/if}
+				{#if nextId}
+					<a
+						href="{base}/showcase/{nextId}"
+						class="p-2 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
+						title="Next showcase"
+					>
+						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+					</a>
+				{:else}
+					<span class="p-2 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] text-[var(--border-color)] cursor-not-allowed">
+						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+					</span>
+				{/if}
+			</div>
+		</div>
+	</div>
 
 	<div class="grid lg:grid-cols-2 gap-8">
 		<!-- Left: Screenshots -->
@@ -140,4 +190,37 @@
 			</div>
 		</div>
 	{/if}
+
+	<!-- Bottom Navigation -->
+	<div class="mt-12 pt-8 border-t border-[var(--border-color)]">
+		<div class="flex justify-between items-center">
+			{#if prevId}
+				<a
+					href="{base}/showcase/{prevId}"
+					class="flex items-center gap-3 px-4 py-3 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
+				>
+					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+					</svg>
+					<span>Previous</span>
+				</a>
+			{:else}
+				<div></div>
+			{/if}
+
+			{#if nextId}
+				<a
+					href="{base}/showcase/{nextId}"
+					class="flex items-center gap-3 px-4 py-3 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
+				>
+					<span>Next</span>
+					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+					</svg>
+				</a>
+			{:else}
+				<div></div>
+			{/if}
+		</div>
+	</div>
 </div>
