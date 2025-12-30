@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { codeToHtml } from 'shiki';
+
 	interface Props {
 		code: string;
 		filename: string;
@@ -6,6 +8,37 @@
 
 	let { code, filename }: Props = $props();
 	let copied = $state(false);
+	let highlightedHtml = $state<string | null>(null);
+
+	// Simple language detection based on filename
+	function getLanguage(filename: string): string {
+		if (filename.endsWith('.sh') || filename === 'sketchybarrc') return 'bash';
+		if (filename.endsWith('.lua')) return 'lua';
+		if (filename.endsWith('.json')) return 'json';
+		if (filename.endsWith('.yaml') || filename.endsWith('.yml')) return 'yaml';
+		if (filename.endsWith('.py')) return 'python';
+		if (filename.endsWith('.js')) return 'javascript';
+		if (filename.endsWith('.ts')) return 'typescript';
+		if (filename.endsWith('.zsh') || filename.endsWith('.zshrc')) return 'bash';
+		return 'bash';
+	}
+
+	const language = $derived(getLanguage(filename));
+
+	// Highlight code with shiki
+	$effect(() => {
+		const currentCode = code;
+		const currentLang = language;
+
+		codeToHtml(currentCode, {
+			lang: currentLang,
+			theme: 'github-dark'
+		}).then(html => {
+			highlightedHtml = html;
+		}).catch(() => {
+			highlightedHtml = null;
+		});
+	});
 
 	async function copyCode() {
 		try {
@@ -18,22 +51,11 @@
 			console.error('Failed to copy:', err);
 		}
 	}
-
-	// Simple language detection based on filename
-	function getLanguage(filename: string): string {
-		if (filename.endsWith('.sh') || filename === 'sketchybarrc') return 'bash';
-		if (filename.endsWith('.lua')) return 'lua';
-		if (filename.endsWith('.json')) return 'json';
-		if (filename.endsWith('.yaml') || filename.endsWith('.yml')) return 'yaml';
-		return 'bash';
-	}
-
-	const language = $derived(getLanguage(filename));
 </script>
 
 <div class="rounded-lg overflow-hidden border border-[var(--border-color)] bg-slate-900">
 	<div class="flex items-center justify-between px-4 py-2 bg-slate-800 border-b border-slate-700">
-		<span class="text-sm text-slate-300 font-mono">{filename}</span>
+		<span class="text-sm text-slate-300 code-font">{filename}</span>
 		<button
 			type="button"
 			onclick={copyCode}
@@ -58,6 +80,12 @@
 		</button>
 	</div>
 	<div class="overflow-x-auto">
-		<pre class="p-4 text-sm text-slate-100 font-mono leading-relaxed"><code>{code}</code></pre>
+		{#if highlightedHtml}
+			<div class="p-4 text-sm code-font leading-relaxed">
+				{@html highlightedHtml}
+			</div>
+		{:else}
+			<pre class="p-4 text-sm text-slate-100 code-font leading-relaxed"><code>{code}</code></pre>
+		{/if}
 	</div>
 </div>

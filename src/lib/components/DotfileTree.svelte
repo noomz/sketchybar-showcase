@@ -26,11 +26,14 @@
 		}
 	});
 
+	// Nerd Font icons (unicode escapes)
 	function getIcon(filename: string): string {
-		if (filename.endsWith('.sh') || filename === 'sketchybarrc') return '📜';
-		if (filename.endsWith('.lua')) return '🌙';
-		if (filename.includes('/')) return '📁';
-		return '📄';
+		if (filename.endsWith('.sh') || filename === 'sketchybarrc') return '\udb81\udcb9'; // nf-md-script
+		if (filename.endsWith('.lua')) return '\ue620'; // nf-seti-lua
+		if (filename.endsWith('.json')) return '\ue60b'; // nf-seti-json
+		if (filename.endsWith('.yaml') || filename.endsWith('.yml')) return '\ue615'; // nf-seti-yaml
+		if (filename.includes('/')) return '\udb80\ude4b'; // nf-md-folder
+		return '\udb80\ude1f'; // nf-md-file
 	}
 
 	async function copyAllFiles() {
@@ -69,11 +72,11 @@
 					<button
 						type="button"
 						onclick={() => (selectedFile = file)}
-						class="w-full text-left px-3 py-2 rounded text-sm font-mono flex items-center gap-2 transition-colors {selectedFile === file
+						class="w-full text-left px-3 py-2 rounded text-sm code-font flex items-center gap-2 transition-colors {selectedFile === file
 							? 'bg-[var(--accent)] text-white'
 							: 'text-[var(--text-secondary)] hover:bg-[var(--bg-primary)] hover:text-[var(--text-primary)]'}"
 					>
-						<span>{getIcon(file)}</span>
+						<span class="text-base">{getIcon(file)}</span>
 						<span class="truncate">{file}</span>
 					</button>
 				{/each}
