@@ -1,17 +1,24 @@
 # SketchyBar Showcase
 
-A community-driven gallery of beautiful [SketchyBar](https://github.com/FelixKratz/SketchyBar) configurations for macOS.
+A community gallery for [SketchyBar](https://github.com/FelixKratz/SketchyBar) configurations. Browse setups, preview screenshots, and copy dotfiles.
 
 ## Features
 
-- Browse beautiful SketchyBar setups
-- Filter by tags (minimal, colorful, etc.)
-- Filter by color mode (dark/light)
-- Search by title, author, or tags
-- Copy dotfiles directly from the browser
-- View full configuration files with syntax highlighting
+- **Screenshot Gallery** - Browse 93+ community setups with full-size previews
+- **Copyable Dotfiles** - View and copy configuration files directly from the browser
+- **Syntax Highlighting** - Code blocks with shiki highlighting for bash, lua, json, yaml
+- **Nerd Font Support** - Proper rendering of Nerd Font icons in configs
+- **Search & Filter** - Filter by tags (catppuccin, gruvbox, minimal, etc.) and dark/light mode
+- **Static Site** - Fast, deployable to GitHub Pages
 
-## Development
+## Tech Stack
+
+- [SvelteKit](https://kit.svelte.dev/) with static adapter
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [Shiki](https://shiki.matsu.io/) for syntax highlighting
+- [JetBrainsMono Nerd Font](https://www.nerdfonts.com/)
+
+## Getting Started
 
 ```bash
 # Install dependencies
@@ -27,98 +34,131 @@ npm run build
 npm run preview
 ```
 
-## Contributing a Showcase
+## Scripts
 
-Want to add your SketchyBar config? Follow these steps:
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run check` | Run TypeScript/Svelte checks |
+| `npm run scrape` | Scrape showcases from GitHub Discussion #47 |
+| `npm run fetch-dotfiles` | Fetch dotfiles from linked GitHub repos |
 
-### 1. Fork and Clone
-
-```bash
-git clone https://github.com/YOUR_USERNAME/sketchybar-showcase.git
-cd sketchybar-showcase
-```
-
-### 2. Add Your Screenshots
-
-Create a folder for your showcase in `static/screenshots/`:
+## Project Structure
 
 ```
-static/screenshots/your-config-name/
-├── thumb.png    # 400x250 thumbnail
-├── main.png     # Main screenshot
-└── ...          # Additional screenshots (optional)
+├── src/
+│   ├── routes/
+│   │   ├── +page.svelte          # Home - showcase grid
+│   │   └── showcase/[id]/        # Showcase detail page
+│   ├── lib/
+│   │   ├── components/           # Svelte components
+│   │   │   ├── ShowcaseCard.svelte
+│   │   │   ├── CodeBlock.svelte
+│   │   │   ├── DotfileTree.svelte
+│   │   │   └── ...
+│   │   └── types.ts              # TypeScript types
+│   └── app.css                   # Global styles
+├── static/
+│   ├── data/
+│   │   ├── index.json            # Showcase listing
+│   │   ├── tags.json             # Available tags
+│   │   └── showcases/            # Individual showcase JSON files
+│   ├── screenshots/              # Showcase screenshots
+│   └── fonts/                    # JetBrainsMono Nerd Font
+├── scripts/
+│   ├── scrape-discussion.js      # GitHub Discussion scraper
+│   └── fetch-dotfiles.js         # Dotfiles fetcher
+└── .github/workflows/
+    └── deploy.yml                # GitHub Pages deployment
 ```
 
-**Screenshot tips:**
-- Use high-quality screenshots (PNG or WebP preferred)
-- Thumbnail should be 400x250px
-- Main screenshots should clearly show your bar
+## Data Format
 
-### 3. Create Your Showcase JSON
-
-Add a new file in `static/data/showcases/your-config-name.json`:
+### Showcase JSON (`static/data/showcases/{id}.json`)
 
 ```json
 {
-  "id": "your-config-name",
-  "title": "Your Config Title",
-  "author": "your-github-username",
-  "authorUrl": "https://github.com/your-github-username",
-  "description": "A brief description of your setup...",
-  "screenshots": [
-    "/screenshots/your-config-name/main.png"
-  ],
-  "thumbnail": "/screenshots/your-config-name/thumb.png",
+  "id": "username-1",
+  "title": "Username's Setup",
+  "author": "username",
+  "authorUrl": "https://github.com/username",
+  "description": "A SketchyBar configuration...",
+  "screenshots": ["/screenshots/username-1/main.png"],
+  "thumbnail": "/screenshots/username-1/main.png",
   "mode": "dark",
-  "tags": ["minimal", "icons"],
-  "githubUrl": "https://github.com/your-username/dotfiles",
-  "dependencies": ["sketchybar", "sf-symbols"],
+  "tags": ["minimal", "catppuccin"],
+  "githubUrl": "https://github.com/username/dotfiles",
+  "dependencies": ["sketchybar"],
   "dotfiles": {
     "sketchybarrc": "#!/bin/bash\n...",
-    "colors.sh": "#!/bin/bash\n..."
+    "plugins/battery.sh": "#!/bin/bash\n..."
   },
   "createdAt": "2024-01-15"
 }
 ```
 
-**Fields:**
-- `id`: URL-friendly identifier (lowercase, hyphens)
-- `mode`: `"dark"`, `"light"`, or `"both"`
-- `tags`: Array of relevant tags
-- `dotfiles`: Object mapping filename to file contents
+## Contributing
 
-### 4. Update the Index
+### Adding Your Setup
 
-Add your showcase to `static/data/index.json`:
+The easiest way to add your setup:
 
-```json
-{
-  "id": "your-config-name",
-  "title": "Your Config Title",
-  "author": "your-github-username",
-  "thumbnail": "/screenshots/your-config-name/thumb.png",
-  "tags": ["minimal", "icons"],
-  "mode": "dark"
-}
-```
+1. Post your setup in [SketchyBar Discussion #47](https://github.com/FelixKratz/SketchyBar/discussions/47)
+2. Include screenshots and a link to your dotfiles repo
+3. Run `npm run scrape` and `npm run fetch-dotfiles` to update
 
-### 5. Test Locally
+### Manual Addition
+
+1. Add screenshots to `static/screenshots/{id}/`
+2. Create a JSON file in `static/data/showcases/{id}.json`
+3. Add entry to `static/data/index.json`
+4. Submit a Pull Request
+
+### Updating Showcases
 
 ```bash
-npm run dev
+# Re-scrape all showcases from GitHub Discussion
+npm run scrape
+
+# Fetch/update dotfiles from linked repos
+npm run fetch-dotfiles
 ```
 
-Visit `http://localhost:5173` and verify your showcase appears correctly.
+## Deployment
 
-### 6. Submit a Pull Request
+The site auto-deploys to GitHub Pages on push to `main` via GitHub Actions.
 
-Push your changes and open a PR. We'll review and merge it!
+Manual deployment:
 
-## Tech Stack
+```bash
+npm run build
+# Deploy the `build/` directory
+```
 
-- [SvelteKit](https://kit.svelte.dev/) - Web framework
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [GitHub Pages](https://pages.github.com/) - Hosting
+## Available Tags
+
+| Tag | Count |
+|-----|-------|
+| custom | 39 |
+| minimal | 16 |
+| icons | 16 |
+| yabai | 10 |
+| widgets | 10 |
+| catppuccin | 7 |
+| lua | 6 |
+| gruvbox | 5 |
+| dracula | 4 |
+| nord | 3 |
+| tokyo-night | 2 |
+| rose-pine | 1 |
+| aerospace | 1 |
+
+## Credits
+
+- [FelixKratz](https://github.com/FelixKratz) for creating SketchyBar
+- All contributors who shared their setups in the discussion thread
 
 ## License
 
